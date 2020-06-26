@@ -52,7 +52,7 @@ const FloatingCart: React.FC = () => {
         onPress={() => navigation.navigate('Cart')}
       >
         <FeatherIcon name="shopping-cart" size={24} color="#fff" />
-        <CartButtonText>{`${totalItensInCart} Itens`}</CartButtonText>
+        <CartButtonText>{`${totalItensInCart} itens`}</CartButtonText>
       </CartButton>
 
       <CartPricing>
